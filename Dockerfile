@@ -1,5 +1,5 @@
 # This file is a template, and might need editing before it works on your project.
-FROM eclipse-temurin:17-jdk-jammy
+FROM gradle:7.4.2-jdk17
 
 RUN set -o errexit -o nounset \
     && apt-get update \
