@@ -5,4 +5,6 @@ RUN set -o errexit -o nounset \
     && apt-get update \
     && apt-get install --yes \
         docker.io \
-    && rm --recursive --force /var/lib/apt/lists/*
+        git \
+    && rm --recursive --force /var/lib/apt/lists/* \
+    && curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
