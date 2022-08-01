@@ -1,2 +1,2 @@
 # Gradle Project Builder
-gradle project builder, including git, kustomize and docker.
+gradle project builder, including git, gnupg, kustomize and docker.
