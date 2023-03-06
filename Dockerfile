@@ -1,5 +1,5 @@
 # This file is a template, and might need editing before it works on your project.
-FROM gradle:7.5.1-jdk17
+FROM gradle:8.0.2-jdk17
 
 RUN set -o errexit -o nounset \
     && apt-get update \
